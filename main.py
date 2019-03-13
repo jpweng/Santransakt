@@ -12,6 +12,8 @@ import sys
 
 %matplotlib inline
 
+# some comments
+
 #1.
 df = pd.read_csv("./../train.csv")
 df.describe (include = 'all')
